@@ -13,3 +13,5 @@ To get the best results with this CSL, adopt the following practices when adding
 * Do not enter full stops at the end of titles or names in the reference tool. E.g. "Theological reflections" and not "Theological reflections.".
 
 Use the reference manager to insert citations and a bibliography into your paper. Set the referencing style to 'University of the Highlands and Islands, Highland Theological College 2020 edition (short-title)' and voilá: well-formatted references.
+
+Included in this repository is a copy of the HTC referencing guide from the [HTC handbook](https://www.htc.uhi.ac.uk/t4-media/one-web/htc/students-and-staff/HTC_Referencing_Guide.pdf), formatted using this CSL via [Zotero](https://www.zotero.org/), with references inserted from [this sample reference library](https://www.zotero.org/groups/2555595/uhi_highland_theological_college_csl_development).
