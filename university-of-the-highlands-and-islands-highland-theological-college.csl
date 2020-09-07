@@ -3,19 +3,19 @@
   <info>
     <title>University of the Highlands and Islands, Highland Theological College 2020 edition (short-title)</title>
     <title-short>UHI HTC (short-title)</title-short>
-    <id>http://www.zotero.org/styles/university-of-the-highlands-and-islands-highland-theological-college</id>
-    <link href="http://www.zotero.org/styles/university-of-the-highlands-and-islands-highland-theological-college" rel="self"/>
+    <id>http://www.zotero.org/styles/university-of-the-highlands-and-islands-highland-theological-college-2020-edition</id>
+    <link href="http://www.zotero.org/styles/university-of-the-highlands-and-islands-highland-theological-college-2020-edition" rel="self"/>
     <link href="http://www.zotero.org/styles/modern-humanities-research-association" rel="template"/>
     <link href="http://libguides.uhi.ac.uk/referencing/htc" rel="documentation"/>
     <author>
       <name>Gavin Falconer</name>
       <email>19019582@uhi.ac.uk</email>
-	  <uri>https://github.com/bbsgfalconer/uhi-htc-citation-style-language</uri>
+      <uri>https://github.com/bbsgfalconer/uhi-htc-citation-style-language</uri>
     </author>
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>UHI HTC format; full notes on first cite, subsequently shortened, with bibliography</summary>
-    <updated>2020-09-06T08:09:02+00:00</updated>
+    <updated>2020-09-07T06:53:53+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
