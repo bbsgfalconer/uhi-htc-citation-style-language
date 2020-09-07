@@ -2,7 +2,7 @@
 Citation Style Lanaguage definition conforming to the referencing style for the UHI Highland Theological College
 
 ## Status
-**Do not use**. Not yet ready for use.
+[Alpha release](https://github.com/bbsgfalconer/uhi-htc-citation-style-language/releases/tag/0.1.0) ready for evaluation.
 
 ## Usage
 This CSL is for use with reference manager tools such as [RefWorks](https://refworks.proquest.com/about-us/), [Zotero](https://www.zotero.org/), [Mendeley](https://www.mendeley.com/), etc.
