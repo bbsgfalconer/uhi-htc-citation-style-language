@@ -404,23 +404,10 @@
     </choose>
   </macro>
   <macro name="point-locators">
-    <text macro="pages"/>
-    <choose>
-      <if variable="page">
-        <group prefix=" (" suffix=")">
-          <label variable="locator" form="short" suffix=" "/>
-          <text variable="locator"/>
-        </group>
-      </if>
-      <else>
-        <label variable="locator" form="short" prefix=", " suffix=" "/>
-        <text variable="locator"/>
-      </else>
-    </choose>
+    <text variable="locator" prefix=", " />
   </macro>
   <macro name="point-locators-subsequent">
-    <label variable="locator" form="short" prefix=", " suffix=" "/>
-    <text variable="locator"/>
+    <text macro="point-locators" />
   </macro>
   <macro name="archive-note">
     <group delimiter=", ">
