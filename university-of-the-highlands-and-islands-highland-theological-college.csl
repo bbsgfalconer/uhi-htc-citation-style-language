@@ -281,7 +281,7 @@
             <number variable="volume" form="roman" font-variant="small-caps"/>
           </if>
           <else>
-            <text variable="volume" font-variant="small-caps"/>
+            <text variable="volume"/>
           </else>
         </choose>
       </if>
