@@ -467,12 +467,12 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="7" et-al-use-first="6" subsequent-author-substitute="&#8212;&#8212;&#8212;">
+  <bibliography hanging-indent="true" et-al-min="4" et-al-use-first="1" subsequent-author-substitute="&#8212;&#8212;&#8212;">
     <sort>
       <key macro="author"/>
       <key variable="title"/>
     </sort>
-    <layout>
+    <layout suffix=".">
       <group delimiter=", ">
         <text macro="author"/>
         <text macro="title-note"/>
@@ -481,6 +481,7 @@
         <text macro="container-contributors-note"/>
         <text macro="collection-title"/>
         <text macro="volume"/>
+        <text macro="locators-note"/>									 
       </group>
       <text macro="issue-note"/>
       <text macro="locators-specific-note" prefix=", "/>
