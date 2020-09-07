@@ -26,6 +26,7 @@
       <term name="translator" form="verb-short">trans.</term>
       <term name="editortranslator" form="verb-short">ed. and trans.</term>
       <term name="editortranslator" form="verb">Edited and translated by</term>
+      <term name="version" form="short">v</term>
       <term name="folio">
         <single>fol.</single>
         <multiple>fols</multiple>
@@ -111,6 +112,36 @@
           </else>
         </choose>
       </if>
+    </choose>
+  </macro>
+  <macro name="title-short">
+    <choose>
+      <if match="any" variable="title-short">
+        <choose>
+          <if variable="title" match="none">
+            <text variable="genre" form="short"/>
+          </if>
+          <else-if type="bill book graphic legislation motion_picture report song" match="any">
+            <text variable="title" form="short" text-case="title" font-style="italic"/>
+            <group delimiter=" " prefix=", ">
+              <text term="version" form="short"/>
+              <text variable="version" form="short"/>
+            </group>
+          </else-if>
+          <else-if type="legal_case interview" match="any">
+            <text variable="title" form="short"/>
+          </else-if>
+          <else-if variable="reviewed-author">
+            <text variable="title" form="short" font-style="italic" prefix="review of "/>
+          </else-if>
+          <else>
+            <text variable="title" form="short" text-case="title" quotes="true"/>
+          </else>
+        </choose>
+      </if>
+      <else>
+        <text macro="title-note"/>
+      </else>
     </choose>
   </macro>
   <macro name="title-sort-substitute">
@@ -443,6 +474,7 @@
         <if position="subsequent">
           <group delimiter=", ">
             <text macro="contributors-short"/>
+            <text macro="title-short"/>
             <text macro="disambiguate"/>
             <text macro="locators-specific-note"/>
           </group>
@@ -456,6 +488,7 @@
             <text macro="container-title-note"/>
             <text macro="container-contributors-note"/>
             <text macro="collection-title"/>
+                                  
             <text macro="locators-note"/>
           </group>
           <text macro="issue-note"/>
@@ -481,7 +514,7 @@
         <text macro="container-contributors-note"/>
         <text macro="collection-title"/>
         <text macro="volume"/>
-        <text macro="locators-note"/>									 
+        <text macro="locators-note"/>                                    
       </group>
       <text macro="issue-note"/>
       <text macro="locators-specific-note" prefix=", "/>
