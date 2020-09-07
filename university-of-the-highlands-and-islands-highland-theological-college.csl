@@ -15,7 +15,7 @@
     <category citation-format="note"/>
     <category field="theology"/>
     <summary>UHI HTC format; full notes on first cite, subsequently shortened, with bibliography</summary>
-    <updated>2020-09-07T10:45:11+00:00</updated>
+    <updated>2020-09-07T11:06:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -281,7 +281,7 @@
             <number variable="volume" form="roman" font-variant="small-caps"/>
           </if>
           <else>
-            <text variable="volume"/>
+            <text variable="volume" font-variant="normal"/>
           </else>
         </choose>
       </if>
@@ -361,7 +361,10 @@
     <choose>
       <if type="thesis">
         <group delimiter=": ">
-          <text variable="publisher"/>
+          <group delimiter=", ">
+            <text variable="publisher"/>
+            <text variable="publisher-place"/>
+          </group>
           <text variable="genre"/>
         </group>
       </if>
